@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Avenir Next LT Pro Thin Cond";
+  src: url("AvenirNextLTPro-ThinCondensed.woff2") format("woff2"),
+    url("AvenirNextLTPro-ThinCondensed.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Semi";
+  src: url("AvenirNextLTPro-Medium.woff2") format("woff2"),
+    url("AvenirNextLTPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Med";
+  src: url("AvenirNextLTPro-Medium.woff2") format("woff2"),
+    url("AvenirNextLTPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("AvenirNextLTPro-Regular.woff2") format("woff2"),
+    url("AvenirNextLTPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Demi";
+  src: url("AvenirNextLTPro-Demi.woff2") format("woff2"),
+    url("AvenirNextLTPro-Demi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Bold";
+  src: url("AvenirNextLTPro-Bold.woff2") format("woff2"),
+    url("AvenirNextLTPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

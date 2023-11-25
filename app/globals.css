@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --core-dark: #01111c;
+  --core-white: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--core-dark);
+  color: var(--core-white);
+}
+
+/* ===================== Custom Font Start ===================== */
+@layer base {
+  /* AVENIR FONT */
+  @font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../public/fonts/avenir/AvenirNextLTPro-ThinCondensed.woff2")
+        format("woff2"),
+      url("../public/fonts/avenir/AvenirNextLTPro-ThinCondensed.woff")
+        format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../public/fonts/avenir/AvenirNextLTPro-Regular.woff2")
+        format("woff2"),
+      url("../public/fonts/avenir/AvenirNextLTPro-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../public/fonts/avenir/AvenirNextLTPro-Medium.woff2")
+        format("woff2"),
+      url("../public/fonts/avenir/AvenirNextLTPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../public/fonts/avenir/AvenirNextLTPro-Medium.woff2")
+        format("woff2"),
+      url("../public/fonts/avenir/AvenirNextLTPro-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../public/fonts/avenir/AvenirNextLTPro-Demi.woff2")
+        format("woff2"),
+      url("../public/fonts/avenir/AvenirNextLTPro-Demi.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../public/fonts/avenir/AvenirNextLTPro-Bold.woff2")
+        format("woff2"),
+      url("../public/fonts/avenir/AvenirNextLTPro-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* SIGNIFIER FONT */
+  @font-face {
+    font-family: "Signifier";
+    src: url("../public/fonts/signifier/Signifier-Light.woff2") format("woff2"),
+      url("../public/fonts/signifier/Signifier-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Signifier";
+    src: url("../public/fonts/signifier/Signifier-LightItalic.woff2")
+        format("woff2"),
+      url("../public/fonts/signifier/Signifier-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Signifier";
+    src: url("../public/fonts/signifier/Signifier-Medium.woff2") format("woff2"),
+      url("../public/fonts/signifier/Signifier-Medium.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Signifier";
+    src: url("../public/fonts/signifier/Signifier-Medium.woff2") format("woff2"),
+      url("../public/fonts/signifier/Signifier-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* Globally applying Avenir Font */
+  html {
+    font-family: "Avenir Next LT Pro";
+  }
+}
+/* ===================== Custom Font End ===================== */
+
+/* ===================== Custom Headings Start ===================== */
+.h1 {
+  font-size: 2.5rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.h3 {
+  font-size: 1.75rem;
+}
+
+.h4 {
+  font-size: 1.5rem;
+}
+
+.h5 {
+  font-size: 1.25rem;
+}
+
+.h6 {
+  font-size: 1rem;
+}
+/* ===================== Custom Headings End ===================== */
+
+/* ===================== Custom Scroll Styling Start ===================== */
+.custom-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-color: #c1c1c1 #e6e6e6;
+  scrollbar-width: thin;
+  border-radius: 5px;
+  border-radius: 10px !important;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px !important;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: #e6e6e6;
+  border-left: 1px solid transparent;
+  border-radius: 10px !important;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 7px;
+  scroll-behavior: smooth !important;
+}
+/* ===================== Custom Scroll Styling End ===================== */
+
+/* Infinite scroll visisble issue */
+.infinite-scroll-component {
+  overflow: visible !important;
+}
